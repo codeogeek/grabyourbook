@@ -1,0 +1,204 @@
+@font-face {
+  font-family: AlegreyaSans-Italic;
+  src: local(AlegreyaSans-Italic), url("../extras/alegreya-sans/AlegreyaSans-Italic.ttf") format("opentype"); }
+/*style code for navbar - start*/
+body{
+    font-family: AlegreyaSans-Italic;
+}
+.header{
+    /*background-color:rgba(144, 12, 63,1);*/
+    /*background-color: darkgray;*/
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity:0.9;
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    /*border-top:2px solid black;*/
+    border-bottom:5px solid black;
+}
+#category{
+    font-family: AlegreyaSans-Italic;
+    font-size:20px;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right:5px solid black;
+    height:100%;
+    width:10%;
+      -webkit-transform: skew(30deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+}
+#category:hover{
+    background-color: grey;
+    color:black;
+}
+#site-name{
+    font-family: AlegreyaSans-Italic;
+    font-size:20px;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right:5px solid black;
+    height:100%;
+    width:60%;
+    -webkit-transform: skew(30deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+    font-size: 25px;
+}
+#site-name:hover{
+    background-color: grey;
+    color:black;
+}
+#contact{
+    font-family: AlegreyaSans-Italic;
+    font-size:20px;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right:5px solid black;
+    height:100%;
+    width:10%;
+      -webkit-transform: skew(30deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+}
+#contact:hover{
+    background-color: grey;
+    color:black;
+}
+#about{
+    font-family: AlegreyaSans-Italic;
+    font-size:20px;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-right:5px solid black;
+    height:100%;
+    width:10%;
+      -webkit-transform: skew(30deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+}
+#about:hover{
+    background-color: grey;
+    color:black;
+}
+#login-div{
+    font-family: AlegreyaSans-Italic;
+    font-size:20px;
+    color:black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+     -webkit-transform: skew(30deg);
+       -moz-transform: skew(20deg);
+         -o-transform: skew(20deg);
+    height:100%;
+    width:10%;
+}
+#login-div:hover{
+    background-color: grey;
+    color:black;
+}
+#login{
+    width:100%;
+    height:100%;
+    border-radius:0px;
+}
+#about-div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:30px;
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    height:200px;
+    width:100%;
+    border-top:5px solid black;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+}
+#contact-div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:30px;
+    position: fixed;
+    bottom:0px;
+    left:0px;
+    height:200px;
+    width:100%;
+    border-top:5px solid black;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+}
+/*style code for navbar - end*/
+
+
+/*style code for main - start*/
+.full-con{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-image: url('../images/back1.jpeg');
+    background-size:cover;
+    padding: 0px;
+    /*background-color: blue;*/
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    margin-right: 0px;
+    height:100%;
+}
+.ask{
+    height:60px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 2px;
+    /*width:80%;*/
+}
+#search{
+    height:40px;
+    width:500px;
+}
+#submit, #register{
+    height:40px;
+    border-radius: 2px;
+    width:90px;
+}
+
+input[type="text"], textarea {
+ display:flex;
+    justify-content: space-around;
+    align-items: center;
+  background-color : #d1d1d1; 
+  font-size:15px;
+}
+/*style code for main - end*/
+
+@media only screen and (max-width: 786px) {
+  #search{
+      width:200px;
+  }
+  .ask{
+      height:120px;
+      flex-direction: column;
+  }
+}
