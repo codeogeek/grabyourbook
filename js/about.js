@@ -13,4 +13,8 @@ jQuery(document).ready(function($){
         $("#contact-div").slideToggle(500);
       
    });
+
+   $("#toggle").click(function(){
+        $(".header-res").slideToggle(500);
+   });
 });
