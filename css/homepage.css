@@ -31,9 +31,9 @@ body{
     border-right:5px solid black;
     height:100%;
     width:10%;
-      -webkit-transform: skew(30deg);
-       -moz-transform: skew(20deg);
-         -o-transform: skew(20deg);
+      -webkit-transform: skew(10deg);
+       -moz-transform: skew(10deg);
+         -o-transform: skew(10deg);
 }
 #category:hover{
     background-color: grey;
@@ -49,9 +49,9 @@ body{
     border-right:5px solid black;
     height:100%;
     width:60%;
-    -webkit-transform: skew(30deg);
-       -moz-transform: skew(20deg);
-         -o-transform: skew(20deg);
+    -webkit-transform: skew(10deg);
+       -moz-transform: skew(10deg);
+         -o-transform: skew(10deg);
     font-size: 25px;
 }
 #site-name:hover{
@@ -68,9 +68,9 @@ body{
     border-right:5px solid black;
     height:100%;
     width:10%;
-      -webkit-transform: skew(30deg);
-       -moz-transform: skew(20deg);
-         -o-transform: skew(20deg);
+    -webkit-transform: skew(10deg);
+       -moz-transform: skew(10deg);
+         -o-transform: skew(10deg);
 }
 #contact:hover{
     background-color: grey;
@@ -86,9 +86,9 @@ body{
     border-right:5px solid black;
     height:100%;
     width:10%;
-      -webkit-transform: skew(30deg);
-       -moz-transform: skew(20deg);
-         -o-transform: skew(20deg);
+      -webkit-transform: skew(10deg);
+       -moz-transform: skew(10deg);
+         -o-transform: skew(10deg);
 }
 #about:hover{
     background-color: grey;
@@ -101,9 +101,9 @@ body{
     display:flex;
     justify-content: space-around;
     align-items: center;
-     -webkit-transform: skew(30deg);
-       -moz-transform: skew(20deg);
-         -o-transform: skew(20deg);
+         -webkit-transform: skew(10deg);
+       -moz-transform: skew(10deg);
+         -o-transform: skew(10deg);
     height:100%;
     width:10%;
 }
