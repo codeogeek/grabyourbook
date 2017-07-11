@@ -311,7 +311,7 @@ input[type="text"], textarea {
   }
 }
 
-// non-related styling:
+/*// non-related styling:*/
 body{
   background: #333;
   color: #ddd;
