@@ -1,0 +1,16 @@
+.category-list{
+    width:200px;
+    margin-left:50px;
+    position: fixed;
+    top:50px;
+}
+.list-group > a:hover{
+    border-left:3px solid black;
+}
+#subcat1 , #subcat2 , #subcat3 , #subcat4 , #subcat5 , #subcat6 , #subcat7 , #subcat8 , #subcat9 , #subcat10 {
+     width:400px;
+    position:absolute;
+    top:0px;
+    right:-399px;
+
+}

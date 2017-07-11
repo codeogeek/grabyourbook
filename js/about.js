@@ -7,6 +7,10 @@ jQuery(document).ready(function($){
       else if($("#carousel-div").is(":visible")){
               $("#carousel-div").slideToggle(500);
       }
+      else if($("#list-category").is(":visible")){
+        $("#list-category").slideToggle(200);
+    }
+    
       $("#about-div").slideToggle(500);
    });
 
@@ -17,6 +21,10 @@ jQuery(document).ready(function($){
         else if($("#carousel-div").is(":visible")){
               $("#carousel-div").slideToggle(500);
       }
+      else if($("#list-category").is(":visible")){
+        $("#list-category").slideToggle(200);
+    }
+    
         $("#contact-div").slideToggle(500);
       
    });
@@ -31,6 +39,9 @@ jQuery(document).ready(function($){
         }
         else if($("#contact-div").is(":visible")){
                  $("#contact-div").slideToggle(500);
+        }
+        else if($("#list-category").is(":visible")){
+        $("#list-category").slideToggle(200);
         }
         
         if($("#carousel-div").is(":visible")){

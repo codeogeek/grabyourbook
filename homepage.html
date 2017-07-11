@@ -6,7 +6,7 @@
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
             <!-- Optional theme -->
-           
+            <link rel="stylesheet" type="text/css" href="css/dropdown.css">
             <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">             
     </head>
@@ -15,6 +15,76 @@
         <div class="recent-toggle" id="recentToggle">
             View Most Selling!
         </div>
+        <!--start category listing-->
+        <div class="category-list" id="list-category" style="display:none;">
+                <div class="list-group">
+                <a href="#" class="list-group-item" onmouseout="document.getElementById('subcat1').style.display = 'none';" onmouseover="document.getElementById('subcat1').style.display = 'block';" >School</a>
+                <div class="subcat" id="subcat1" style="display:none;" onmouseout="document.getElementById('subcat1').style.display = 'none';" onmouseover="document.getElementById('subcat1').style.display = 'block';">
+                       <div class="list-group">
+                            <a href="#" class="list-group-item">English</a>
+                            <a href="#" class="list-group-item">Maths</a>
+                            <a href="#" class="list-group-item">Physics</a>
+                            <a href="#" class="list-group-item">Chemistry</a>
+                            <a href="#" class="list-group-item">Biology</a>
+                            <a href="#" class="list-group-item">Social Studies</a>
+                            <a href="#" class="list-group-item">Art & Craft</a>
+                            <a href="#" class="list-group-item">Computer Science</a>
+                            <a href="#" class="list-group-item">Physical Education</a>
+                            <a href="#" class="list-group-item">Others</a>
+                        </div>
+
+                </div>
+
+                <a href="#" class="list-group-item" onmouseout="document.getElementById('subcat2').style.display = 'none';" onmouseover="document.getElementById('subcat2').style.display = 'block';" >Graduation</a>
+                <div class="subcat" id="subcat2" style="display:none;" onmouseout="document.getElementById('subcat2').style.display = 'none';" onmouseover="document.getElementById('subcat2').style.display = 'block';">
+                       <div class="list-group">
+                            <a href="#" class="list-group-item">Bachelor of Technology (B.Tech)</a>
+                            <a href="#" class="list-group-item">Bachelor of Arts (B.A.)</a>
+                            <a href="#" class="list-group-item">Bachelor of Science (B.S.)</a>
+                            <a href="#" class="list-group-item">Bachelor of Fine Arts (BFA)</a>
+                            <a href="#" class="list-group-item">Bachelor of Applied Science (BAS)</a>
+                            <a href="#" class="list-group-item">Bachelor of Commerce (B.Comm)</a>
+                            <a href="#" class="list-group-item">Others</a>
+                        </div>
+
+                </div>
+
+                <a href="#" class="list-group-item" onmouseout="document.getElementById('subcat3').style.display = 'none';" onmouseover="document.getElementById('subcat3').style.display = 'block';" >Post-Graduation</a>
+                <div class="subcat" id="subcat3" style="display:none;" onmouseout="document.getElementById('subcat3').style.display = 'none';" onmouseover="document.getElementById('subcat3').style.display = 'block';">
+                       <div class="list-group">
+                            <a href="#" class="list-group-item">Master of Arts (MA)</a>
+                            <a href="#" class="list-group-item">Master of Science (M.Sc)</a>
+                            <a href="#" class="list-group-item">Master of Commerce (M.Com)</a>
+                            <a href="#" class="list-group-item">Master of Engineering/Technology (ME/M.Tech)</a>
+                            <a href="#" class="list-group-item">Master of Law (LLM)</a>
+                            <a href="#" class="list-group-item">Master of Computer Application (MCA)</a>
+                            <a href="#" class="list-group-item">Master of Business Administration (MBA)</a>
+                            <a href="#" class="list-group-item">Master of Pharmacy (M.Pharma)</a>
+                            <a href="#" class="list-group-item">Others</a>
+                        </div>
+
+                </div>
+
+                <a href="#" class="list-group-item"  >Competition Books</a>
+
+                <a href="#" class="list-group-item" onmouseout="document.getElementById('subcat4').style.display = 'none';" onmouseover="document.getElementById('subcat4').style.display = 'block';" >Novels</a>
+                <div class="subcat" id="subcat4" style="display:none;" onmouseout="document.getElementById('subcat4').style.display = 'none';" onmouseover="document.getElementById('subcat4').style.display = 'block';">
+                       <div class="list-group">
+                            <a href="#" class="list-group-item">Mysteries</a>
+                            <a href="#" class="list-group-item">Romance</a>
+                            <a href="#" class="list-group-item">Thrillers</a>
+                            <a href="#" class="list-group-item">Science Fiction</a>
+                            <a href="#" class="list-group-item">Historical Fiction</a>
+                            <a href="#" class="list-group-item">Fantasy</a>
+                            <a href="#" class="list-group-item">Others</a>
+                        </div>
+
+                </div>
+
+                </div>
+        </div>
+        <!--end category listing-->
+
             <div class="full-con container-fluid ">
                     <div class="row header-row">
                         <!--header/navbar row-->
@@ -126,6 +196,7 @@
                 <b>Contact information here!<b>
             </div>   
             <script src="js/about.js"></script>
+            <script src="js/dropdown.js"></script>
             <script src="js/carousel-recent.js"></script>         
     </body>
 
