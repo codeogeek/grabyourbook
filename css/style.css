@@ -1,0 +1,71 @@
+.modal-dialog
+{
+	width: 50%;
+	height: 400px;
+	padding: 0;
+}
+.modal-body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+.row
+{
+	padding: 0;
+	margin-right: 0;
+	margin-left: 0;
+	width: 100%;
+	background-color: #00E5FF;
+}
+.close, .close:hover
+{
+	opacity: 2;
+	height: 40px;
+	width: 40px;
+	size: 25px;
+}
+.close
+{
+	color: black;
+}
+.close:hover
+{
+	background: red;
+	color: white;
+}
+#col1
+{
+	
+	text-align: center;
+	padding: 0;
+}
+img
+{
+	width: 100%;
+	height: 80%;
+}
+#col1>h2
+{
+	font-family: 'Courgette', cursive;
+}
+.bottom
+{
+	width: 100%;
+	height: 150px;
+	bottom: 0;
+}
+.bottom>button
+{
+	display: inline-flex;
+	justify-content: space-around;
+	margin-top: 30%;
+	width: 45%;
+	height: 40%;
+	font-size: 140%;
+}
+.btn.btn-danger
+{
+	float: right;
+}
+
