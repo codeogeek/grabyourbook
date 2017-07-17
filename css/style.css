@@ -1,0 +1,209 @@
+.container-fluid
+{
+	background: linear-gradient(#212121,#6200EA,#9575CD);
+}
+
+
+
+
+/****MATRIX****/
+
+#row1
+{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.frames
+{
+	width: 180px;
+	height: 240px;
+	margin: 25px;
+	margin-bottom: 40px;
+	position: relative;
+}
+.frames>img
+{
+	width: 100%;
+	height: 100%;
+}
+.frames>.name
+{
+	display: none;
+	z-index: 100;
+	width: 100%;
+	background-color: black;
+	opacity: 1;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+/****MATRIX OVER****/
+
+/****MODAL****/
+
+.modal-dialog
+{
+	width: 50%;
+	height: 400px;
+	padding: 0;
+}
+.modal-body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+#row3
+{
+	padding: 0;
+	margin-right: 0;
+	margin-left: 0;
+	width: 100%;
+	background-color: #6200EA;
+	color: white;
+}
+.close, .close:hover
+{
+	opacity: 2;
+	height: 40px;
+	width: 40px;
+	size: 25px;
+}
+.close
+{
+	color: black;
+}
+.close:hover
+{
+	background: red;
+	color: white;
+}
+#col1
+{
+	
+	text-align: center;
+	padding: 0;
+}
+img
+{
+	width: 100%;
+	height: 100%;
+}
+img:hover
+{
+	cursor: pointer;
+}
+#col1>h2
+{
+	font-family: 'Courgette', cursive;
+}
+.bottom
+{
+	width: 100%;
+	height: 150px;
+	bottom: 0;
+}
+.bottom>button
+{
+	display: inline-flex;
+	justify-content: space-around;
+	margin-top: 25%;
+	margin-bottom: 5%;
+	width: 45%;
+	height: 40%;
+	font-size: 120%;
+}
+.btn.btn-danger
+{
+	float: right;
+}
+
+
+/****MODAL OVER****/
+
+
+
+/****RATING****/
+
+fieldset, label { margin: 0; padding: 0; }
+
+.rating { 
+  border: none;
+}
+
+.rating > input {display: none; 
+	justify-content: space-around;
+	align-items: center; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+
+
+.middle {
+  display: none; 
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 15%;
+  background-color: black;
+  opacity: 0.7;
+  align-items: center;
+}
+
+
+.frames:hover .middle {
+	display: block;
+ 
+}
+
+
+/****RATING OVER****/
+
+/***Text***/
+
+.status
+{
+	font-size: 50px;
+	font-family: 'Courgette', cursive;
+	text-align: center;
+	color: #F50057;
+}
+h1
+{
+	color: #FF4081;
+	font-size: 80px;
+	font-family: 'Fresca', sans-serif;
+}
