@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Jul, 2017, 1:23:19 PM
+    Author     : user
+*/
+
+    .modal-header {
+        background-image: url(image.jpg);
+       
+        
+        height: 50px;
+    }
+    .modal-header .color{
+        background-color: rgba(0,0,0,0.6);
+    }
+    
+    .modal-title{
+        margin: 0;
+         color:white;
+        font-weight:bold;
+        text-transform: uppercase;
+       padding: 0px;
+    
+        
+    }
+    .high{
+        border-color: red;
+    }
+    .modal-body {
+    
+      background-color:rgba(0,0,0,0.6); 
+         border-color: white;
+        background-color:#222; 
+        color:white ;
+      
+      
+    }
+    
+    
+   
+     #login:link {
+        color: white;
+        font-size: 20px;
+        text-decoration: underline;
+        
+    }
+     #login:visited {
+        color:red;
+        
+    }
+    #login:hover {
+      color: yellow; 
+    
+    }
+    #login:active {
+      color: blue; 
+    
+    }
+    .btn{
+       background-color: purple; 
+       color:white;
+    }
+     .btn:visited {
+        color:pink;
+     }
+    .btn:hover {
+      background-color: yellow; 
+     
+    }
+    .btn:active {
+      color:pink; 
+    
+    }
+    
+    span{
+        color:red;
+        font-size: 12px;
+        font-weight:bold; 
+        
+    }
+  
+    #showhide{
+       background-color: white;
+       border-radius:50%;
+      }
+      #showhide:visited {
+        color:white;
+     }
+      #showhide:hover{
+          color:pink;
+      }
+       #showhide:active {
+      color:pink; 
+    
+    }
+    .modal-footer{
+       
+     background-image: url(image.jpg);
+    }
+  //  .modal-footer .my-image{
+     
+        
+       
+     
+  //   background-color:  rgba(0,0,0,0.6);   
+        
+       
+  //  }
