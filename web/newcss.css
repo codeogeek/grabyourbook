@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Jul, 2017, 1:21:39 PM
+    Author     : user
+*/
+
+// .modal-header {
+    //    background-image: url(images.jpg);
+     //   background-color:rgba(0,0,0,0.8);
+   // }
+    .image{
+        background-image: url(images.jpg);
+    }
+    .image:before{
+        
+        background: rgba(0,0,0,0.3);
+    }
+    
+    .modal-title{
+        text-align: center;
+        color:white;
+        text-transform: uppercase;
+        width: 300px;
+       font-weight:bold;
+       font-size:25px;
+      
+    }
+    
+    .modal-body {
+      background-color:rgba(0,0,0,0.8);
+      color: white;
+    }
+    
+    span{
+        color:red;
+        font-size: 10px;
+        
+    }
+    span #eye{
+            font-size: 14px;
+    }
+    a:link {
+        color: white;
+        text-decoration: underline;
+        
+    }
+     a:visited {
+        color:red;
+        
+    }
+    a:hover {
+      color: yellow; 
+    
+    }
+    a:active {
+      color: blue; 
+    
+    }
+   
+    .btn{
+       
+       color:white;
+    }
+     .btn:visited {
+        color:pink;
+     }
+    .btn:hover {
+      background-color: yellow; 
+      color:blue; 
+    
+    }
+    .btn:active {
+      color:pink; 
+    
+    }
+    #password{
+       width:122%;
+    }
+    #eye:hover{
+     color:white; 
+     
+    }
+    .modal-footer{
+         background-image: url(images1.jpg);
+    }
+    .input-group-btn.btn ,.input-group-btn ,.btn-group {
+    z-index: 2;
+    margin-left: -15px;
+}
+   #sd{
+    display:inline;
+}
